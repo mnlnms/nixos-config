@@ -37,7 +37,7 @@
 
     # Other packages
     jujutsu.url = "github:martinvonz/jj";
-    zig.url = "github:mnl/zig-overlay";
+    zig.url = "github:mitchellh/zig-overlay";
 
     # Non-flakes
     nvim-conform.url = "github:stevearc/conform.nvim/v7.1.0";
@@ -62,7 +62,7 @@
     nvim-web-devicons.flake = false;
     vim-copilot.url = "github:github/copilot.vim/v1.39.0";
     vim-copilot.flake = false;
-    vim-misc.url = "github:mnl/vim-misc";
+    vim-misc.url = "github:mitchellh/vim-misc";
     vim-misc.flake = false;
   };
 

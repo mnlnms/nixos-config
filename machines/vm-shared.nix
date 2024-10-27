@@ -43,7 +43,7 @@ in {
   networking.hostName = "dev";
 
   # Set your time zone.
-  time.timeZone = "America/Los_Angeles";
+  time.timeZone = "Europe/Vienna";
 
   # The global useDHCP flag is deprecated, therefore explicitly set to false here.
   # Per-interface useDHCP will be mandatory in the future, so this generated config
@@ -58,7 +58,7 @@ in {
 
   # Select internationalisation properties.
   i18n = {
-    defaultLocale = "en_US.UTF-8";
+    defaultLocale = "de_AT.UTF-8";
     inputMethod = {
       enabled = "fcitx5";
       fcitx5.addons = with pkgs; [
@@ -77,7 +77,7 @@ in {
     displayManager.gdm.enable = true;
   } else {
     enable = true;
-    xkb.layout = "us";
+    xkb.layout = "de";
     dpi = 220;
 
     desktopManager = {
